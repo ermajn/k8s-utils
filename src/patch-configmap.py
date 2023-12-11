@@ -93,7 +93,7 @@ def main():
     args = argParser.parse_args()
 
     logger.info(
-        f"max number of cluster to patch is set to {args.maxclusters}. Change this value using MAX_PGCLUSTER_TO_PATCH parameter"
+        f"max number of cluster to patch is set to {args.maxcms}."
     )
 
     if args.dryrun:
